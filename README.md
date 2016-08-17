@@ -1,5 +1,6 @@
 # vue-60
 60分钟学习Vue
+源博客地址（http://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651551140&idx=1&sn=5b791228d7978a837bb83063cf6e07d6&scene=0#wechat_redirect）
 原博客是使用1.0版本  我将它升级到2.0版本
 主要是在v-demo.html,v-for index 使用方式
 2.0版本
