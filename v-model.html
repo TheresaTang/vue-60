@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <p>{{message}}</p>
+    <div>
+      <input type="text" v-model="message"/>
+    </div>
+  </div>
+  <script>
+  var vm = new Vue({
+    el:'#app',
+    data:{
+      message:'Hello World!'
+    }
+  })
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="http://cdn.bootcss.com/vue/1.0.26/vue.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    {{message}}
+    {{name}}
+    {{say}}
+  </div>
+  <script>
+    var exampleDate = {
+      message:'Hello World!',name:"ts",say:"taoxiaomeng"
+    }
+
+    new Vue({
+      el:'#app',
+      data:exampleDate
+    })
+  </script>
+</body>
+</html>
